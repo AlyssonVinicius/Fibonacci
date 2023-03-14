@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main() {
+int main() {
     /*inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores
     (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...)*/
 
@@ -31,5 +31,5 @@ void main() {
         printf("%i ", v[i]);
     }*/
     printf("\nInforme um valor entre 0 e %d: ", ult);
-    system("pause");
+    return 0;
 }
