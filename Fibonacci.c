@@ -6,7 +6,7 @@ int main() {
     int prox, penult=0, ult=1, n;
     bool seq; // seq = sequencia
     printf("------------------------------------------------------");
-    printf("\nInforme o para calcular a sequencia do Fibonacci: ");
+    printf("\nInforme um valor para calcular a sequencia do Fibonacci: ");
         scanf("%d", &n);
     if(n == 0){
         seq = true;
